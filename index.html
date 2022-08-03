@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="Img/Igh0zt-Ios7-Style-Metro-Ui-MetroUI-Apps-Calculator-Alt.ico" type="image/x-icon">
+    <title>Calculadora Simples</title>
+</head>
+<body>
+    <main class="container">
+    <h1>Calculadora</h1>
+
+    <div id="vision"></div>
+
+    <div class="content">
+        <label for="vOne">Valor 1</label>
+        <input type="number" name="value1" id="vOne">
+
+        <label for="Vtwo">Valor 2</label>
+        <input type="number" name="value2" id="vTwo">
+
+        <div class="btn">
+            <input type="button" value="+" id="sum" onclick="sum()">
+            <input type="button" value="-" id="less" onclick="less()">
+            <input type="button" value="*" id="mult" onclick="mult()">
+            <input type="button" value="/" id="div" onclick="div()">
+            <input type="button" value="C" id="clear" onclick="cl()">
+        </div>
+    </div>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

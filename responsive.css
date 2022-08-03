@@ -1,0 +1,58 @@
+@media(max-width: 500px){
+    .container{
+        width: 350px; 
+        height: 600px;   
+    }
+    #vision{
+        width: 300px;
+    }
+    #vOne, #vTwo{
+        width: 300px;
+        display: flex;
+        
+    }
+
+    .btn{
+        width: 300px;
+        position: relative;
+        left: 23px;
+    }
+    #sum, #less, #mult{
+        margin-bottom: 5px;
+    }
+}  
+
+@media(max-width: 360px){
+    h1{
+        top: -200px;
+    }
+    .container{
+        width: 300px; 
+        height: 600px;   
+    }
+    #vision{
+        width: 250px;
+    }
+    #vOne, #vTwo{
+        width: 250px;  
+    }
+
+    .btn{
+        width: 200px;
+        position: relative;
+        left: 37px;
+    }
+    #sum, #less, #mult{
+        margin-bottom: 5px;
+    }
+}  
+
+@media(max-width: 330px){
+    h1{
+        font-size: 40px;
+    }
+    #vision{
+        width: 250px;
+        height: 80px;
+    }
+}

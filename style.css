@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#vision{
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: #1d1c21;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    top: -130px;
+}
+
+body{
+    background-color: #1d1c21;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    position: relative;
+    top: -250px;
+    font-size: 50px;
+}
+.container{
+    margin-top: 150px;
+    background-color: #2d2c33;
+    height: 600px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 10px;
+}
+
+label{
+    position: relative;
+    top: -100px;
+}
+
+#vOne, #vTwo{
+    position: relative;
+    background-color: #1d1c21;
+    border: none;
+    color: white;
+    top: -100px;
+    border-radius: 10px;
+}
+
+.btn input{
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    background-color: #1d1c21;
+    cursor: pointer;
+}
